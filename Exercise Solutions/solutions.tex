@@ -1,6 +1,7 @@
 \documentclass[]{article}
 \usepackage{parskip}
 \usepackage{amsmath}
+\usepackage{enumitem}
 
 \begin{document}
 
@@ -32,5 +33,29 @@
 	\begin{equation*}
 		R = \dfrac{ V^{2}_{rms} }{ P } = \dfrac{ 120^{2} }{ 1200 } = 12 \Omega
 	\end{equation*}	
+
+\subsection*{Exercise 1.2}
+
+\begin{enumerate}[label=(\alph*)]
+	\item The energy stored in a fully charged 50 A-hour 12-V battery is
+
+	\begin{equation*}
+		12 \cdot 50 \cdot 3600 = 2.16 MJ
+	\end{equation*}
+
+	\item The energy of water in a dam can be calculated by the following formula
+		
+	\begin{equation*}
+		E =  m \cdot g \cdot h
+	\end{equation*}
+
+	We want to calculate the mass m, rearranging of the above formula gives
+	
+	\begin{equation*}
+		m = \dfrac{E}{g \cdot h} = \dfrac{2.16 \cdot 10^6}{9.82 \cdot 30} = 7331 kg
+	\end{equation*}
+	
+	This means that it takes 7 331 litres of water from a 30 meters high dam to charge the battery. 
+\end{enumerate}
 	
 \end{document}
