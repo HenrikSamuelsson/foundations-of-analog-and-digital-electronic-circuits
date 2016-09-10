@@ -3,6 +3,8 @@
 \usepackage{amsmath}
 \usepackage{enumitem}
 
+\newcommand*\average[1]{\bar{#1}}
+
 \begin{document}
 
 %title
@@ -65,7 +67,23 @@
 The power dissipated in the resistor is given by
 
 \begin{equation*}
-	p =  \dfrac{V_{DC}^{2}}{R}
+	p =  \dfrac{ V _{DC} ^{2} }{ R }
 \end{equation*}
+
+\subsection*{Exercise 1.4}
+
+\begin{enumerate}[label=(\alph*)]
+	\item The average power dissipated in R is
+
+	\begin{equation*}
+		\average{p} =  { V _{rms} ^{2} }\dfrac{ 1 }{ R } = \left( \dfrac{ V _{AC} }{ \sqrt{2} }\right) ^2 \cdot \dfrac{ 1 }{ R }
+	\end{equation*}
+
+	\item
+	\begin{equation*}
+		V _{DC} = \dfrac{ V _{AC} }{ \sqrt{2} }
+	\end{equation*}	
+ 
+\end{enumerate}
 	
 \end{document}
